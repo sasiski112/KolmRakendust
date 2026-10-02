@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PildiVaataja\PildiVaataja.csproj" />
+    <ProjectReference Include="..\MatemaatikaMang\MatemaatikaMang.csproj" />
+    <ProjectReference Include="..\SarnasteMang\SarnasteMang.csproj" />
+  </ItemGroup>
+</Project>
